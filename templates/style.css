@@ -76,6 +76,9 @@ a.current {
 	margin-top: 2%;
 }
 
+.instructor ul img{
+	margin-left: 41%;
+}
 .instructor ul{
 	display: flex;
 	flex-direction: row;
