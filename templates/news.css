@@ -85,7 +85,17 @@ a.current {
 	justify-content: flex-start;
 }
 
-.post-1 h3{
-	background-color: black;
-	height: 1px;
+.post-1 h2{
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top:0;
+}
+
+.post-1 {
+  text-align: center;
+}
+
+.posts {
+  background-color:lightblue;
+  display: center;
 }

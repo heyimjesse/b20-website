@@ -42,3 +42,19 @@ a.current {
 .topbar ul li a{
 	text-decoration: none;
 }
+
+.content {
+  display: inline-block;
+  text-align: center;
+  width:100%;
+  justify-content: center;
+  background-color: lightblue;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 10px;
+}

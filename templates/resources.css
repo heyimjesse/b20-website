@@ -42,21 +42,7 @@ a.current {
 .topbar ul li a{
 	text-decoration: none;
 }
-.content h1{
-	font-size: 25px;
-	font-weight: bold;
-	color:black;
-	text-align: center;
-	margin:0;
-}
 
-.content{
-	background-color:lightblue;
-}
-.content h1{
-	padding-bottom: 25px;
-	padding-top: 30px;
-}
 .cd {
 	border-style:solid;
 	text-align: center;
@@ -83,4 +69,26 @@ a.current {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
+}
+
+.contents {
+  background-color: lightblue;
+  overflow:hidden;
+}
+
+.online_resources {
+  padding-top:1px;
+  width: 40%;
+  float: left;
+  overflow:hidden;
+}
+
+.software_and_documentation {
+  width: 60%;
+  float: left;
+  overflow:hidden;
+}
+
+.software_and_documentation li {
+  padding: 5px 5px;
 }
